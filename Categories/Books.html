@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amity University Bengaluru Merchandise Store - Books & Publications</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background, similar to Tailwind's bg-gray-100 */
+            color: #333;
+        }
+        .text-amity-blue {
+            color: #2563eb; /* A strong blue for text, similar to Amity's branding */
+        }
+        .bg-amity-blue {
+            background-color: #2563eb;
+        }
+        .btn-yellow {
+            background-color: #facc15; /* Tailwind yellow-400 */
+            color: #1a202c; /* Dark text on yellow */
+        }
+        .btn-yellow:hover {
+            background-color: #eab308; /* Tailwind yellow-500 */
+        }
+        .item-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .item-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 12px -3px rgba(0, 0, 0, 0.1), 0 3px 5px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="bg-amity-blue text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-extrabold">
+                Amity University Bengaluru <span class="block text-sm md:inline-block md:ml-2 font-normal">Merchandise Store</span>
+            </div>
+            <nav class="flex space-x-4 md:space-x-6">
+                <a href="#" class="hover:text-yellow-300 transition duration-150 ease-in-out font-semibold">Home</a>
+                <a href="#" class="hover:text-yellow-300 transition duration-150 ease-in-out font-semibold">Cart</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 py-8 md:py-12">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-amity-blue mb-12 text-center">
+            Books & Publications
+        </h1>
+
+        <section class="mb-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=AlumniBook" alt="Amity Alumni Book" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Alumni Directory</h3>
+                        <p class="text-gray-600 text-sm mb-2">Connect with fellow Amity alumni.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹499</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=ResearchJournal" alt="Amity Research Journal" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Research Journal (Latest)</h3>
+                        <p class="text-gray-600 text-sm mb-2">Latest academic research from Amity.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹599</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=UniversityHistory" alt="Amity History Book" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">History of Amity University</h3>
+                        <p class="text-gray-600 text-sm mb-2">Explore the journey of Amity University.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹799</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=StudentHandbook" alt="Amity Student Handbook" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Student Handbook</h3>
+                        <p class="text-gray-600 text-sm mb-2">Essential guide for all Amity students.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹199</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=FictionBook" alt="Amity Fiction Book" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Author's Fiction Novel</h3>
+                        <p class="text-gray-600 text-sm mb-2">Support Amity's talented authors.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹349</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=CourseCatalog" alt="Amity Course Catalog" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Course Catalog</h3>
+                        <p class="text-gray-600 text-sm mb-2">Detailed information on all courses.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹129</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Yearbook" alt="Amity Yearbook" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity University Yearbook</h3>
+                        <p class="text-gray-600 text-sm mb-2">Relive memories from your academic year.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹899</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Magazine" alt="Amity Magazine" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Quarterly Magazine</h3>
+                        <p class="text-gray-600 text-sm mb-2">Stay updated with university news.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹149</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center text-sm mt-8">
+        <p>&copy; 2025 Amity University Bengaluru Merchandise Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

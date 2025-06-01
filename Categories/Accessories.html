@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amity University Bengaluru Merchandise Store - Accessories</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray background, similar to Tailwind's bg-gray-100 */
+            color: #333;
+        }
+        .text-amity-blue {
+            color: #2563eb; /* A strong blue for text, similar to Amity's branding */
+        }
+        .bg-amity-blue {
+            background-color: #2563eb;
+        }
+        .btn-yellow {
+            background-color: #facc15; /* Tailwind yellow-400 */
+            color: #1a202c; /* Dark text on yellow */
+        }
+        .btn-yellow:hover {
+            background-color: #eab308; /* Tailwind yellow-500 */
+        }
+        .item-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .item-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 12px -3px rgba(0, 0, 0, 0.1), 0 3px 5px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="bg-amity-blue text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-extrabold">
+                Amity University Bengaluru <span class="block text-sm md:inline-block md:ml-2 font-normal">Merchandise Store</span>
+            </div>
+            <nav class="flex space-x-4 md:space-x-6">
+                <a href="#" class="hover:text-yellow-300 transition duration-150 ease-in-out font-semibold">Home</a>
+                <a href="#" class="hover:text-yellow-300 transition duration-150 ease-in-out font-semibold">Cart</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4 py-8 md:py-12">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-amity-blue mb-12 text-center">
+            Accessories
+        </h1>
+
+        <section class="mb-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Keychain" alt="Amity Keychain" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Logo Keychain</h3>
+                        <p class="text-gray-600 text-sm mb-2">Show your Amity pride everywhere you go.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹99</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Mug" alt="Amity Mug" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Coffee Mug</h3>
+                        <p class="text-gray-600 text-sm mb-2">Enjoy your coffee in an Amity branded mug.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹249</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Badge" alt="Amity Badge" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Lapel Pin/Badge</h3>
+                        <p class="text-gray-600 text-sm mb-2">Small and stylish, perfect for your jacket.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹79</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=WaterBottle" alt="Amity Water Bottle" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Water Bottle</h3>
+                        <p class="text-gray-600 text-sm mb-2">Stay hydrated with your Amity bottle.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹349</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Lanyard" alt="Amity Lanyard" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Lanyard</h3>
+                        <p class="text-gray-600 text-sm mb-2">Official Amity lanyard for ID cards.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹119</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=ToteBag" alt="Amity Tote Bag" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Canvas Tote Bag</h3>
+                        <p class="text-gray-600 text-sm mb-2">Eco-friendly tote for your essentials.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹449</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=PhoneCase" alt="Amity Phone Case" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Phone Case</h3>
+                        <p class="text-gray-600 text-sm mb-2">Protect your phone with Amity style.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹299</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-card bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/400x300/e0e0e0/333333?text=Mousepad" alt="Amity Mousepad" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800 mb-1">Amity Logo Mousepad</h3>
+                        <p class="text-gray-600 text-sm mb-2">Enhance your desk with an Amity mousepad.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-amity-blue">₹199</span>
+                            <button class="btn-yellow px-3 py-1 rounded-md text-sm font-semibold">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center text-sm mt-8">
+        <p>&copy; 2025 Amity University Bengaluru Merchandise Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
